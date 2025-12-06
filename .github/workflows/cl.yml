@@ -1,0 +1,27 @@
+name: Racket Tests (HtDP BSL)
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install Racket 
+      uses: Bogdanp/racket-action@v1
+      with:
+        version: 'current'
+
+    - name: Install HtDP Packages
+      run: |
+        raco pkg install --auto htdp-lib
+
+    - name: Run Tests
+      run: |
+        raco test .
