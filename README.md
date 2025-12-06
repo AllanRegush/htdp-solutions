@@ -42,5 +42,5 @@ cd htdp-solutions
 racket 1-fixed-size-data/ex1-distance-formula.rkt
 
 # 4. Run tests
-raco test .ß
+raco test .
 ```
