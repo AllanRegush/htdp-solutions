@@ -12,6 +12,7 @@
 (check-expect (insert-underscore "" 0)      "_")
 (check-expect (insert-underscore "" 5)      "")           ;
 (check-expect (insert-underscore "a" 1)     "a_")
+(check-expect (insert-underscore "a" -1)     "")
 
 ; Stub
 ; (define (insert-underscore str i) "")
@@ -22,7 +23,7 @@
 
 (define (insert-underscore str i)
   (cond
-    [(> i (string-length str)) ""]
+    [(or (< i 0) (> i (string-length str))) ""]
     [else
      (string-append (substring str 0 i)
                     "_"
