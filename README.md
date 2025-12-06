@@ -14,7 +14,7 @@ This repository serves two purposes:
 
 | Part | Topic                     | Exercises | Status       |
 |------|---------------------------|-----------|--------------|
-| 1    | Fixed-Size Data           | 1–        | In progress|
+| 1    | Fixed-Size Data           | 1–115        | In progress|
 | Intermezzo 1    | Beginning Student Language            |           |  Not started  |
 | 2    | Arbitrarily Large Data     |           |  Not started  |
 | Intermezzo 2    | Quote, Unquote |           | Not started |
