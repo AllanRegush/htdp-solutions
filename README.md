@@ -1,5 +1,5 @@
 # How to Design Programs – Solutions & Learning Journal
-[![CI](https://github.com/allanregush/htdp-solutions/actions/workflows/ci.yml/badge.svg)](https://github.com/allanregush/htdp-solutions/actions)
+[![Test](https://github.com/AllanRegush/htdp-solutions/actions/workflows/cl.yml/badge.svg)](https://github.com/AllanRegush/htdp-solutions/actions/workflows/cl.yml)
 
 Systematic solutions to every exercise in the 2nd edition of *[How to Design Programs](https://htdp.org)* (HtDP) using Racket and the strict application of the **design recipe**.
 
