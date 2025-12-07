@@ -21,10 +21,6 @@ jobs:
         variant: 'CS'        # or: 'BC' for Racket Before Chez
         version: '9.0'
       # or: 'stable' for the latest version, 'current' for the latest snapshot, 'pre-release' for the latest pre-release build (defaults to 'stable')
-    - name: Install HtDP Packages
-      run: |
-        raco pkg install --auto htdp-lib
-
     - name: Run Tests
       run: |
         raco test .
