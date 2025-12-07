@@ -1,4 +1,4 @@
-name: Racket Tests (HtDP BSL)
+name: Test
 
 on:
   push:
