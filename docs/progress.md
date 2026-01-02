@@ -1,6 +1,6 @@
 # Progress Tracker – How to Design Programs (2nd edition)
 
-Total exercises completed: **12 / ???**
+Total exercises completed: **13 / ???**
 
 | Part | Topic                              | Exercises       | Status        | Notes / Reflections                                                                 |
 |------|------------------------------------|-----------------|---------------|-------------------------------------------------------------------------------------|
